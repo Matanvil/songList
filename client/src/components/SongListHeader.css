@@ -1,0 +1,13 @@
+/* SongListHeader.css */
+
+.song-list-header {
+  text-align: center;
+  padding: 40px 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+}
+
+.song-list-title {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}

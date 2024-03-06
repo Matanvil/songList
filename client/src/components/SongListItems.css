@@ -1,0 +1,88 @@
+.song-item {
+  position: relative; /* Ensure proper positioning of the menu */
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  margin-bottom: 20px;
+  transition:
+    background-color 0.3s,
+    box-shadow 0.3s;
+  text-align: center;
+  list-style: none;
+}
+
+.song-item:hover {
+  background-color: rgba(16, 15, 15, 0.778);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.song-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.song-artist {
+  font-size: 1rem;
+  color: #666;
+}
+
+.song-year {
+  font-size: 0.9rem;
+  color: #999;
+}
+
+.hamburger-menu {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  cursor: pointer;
+}
+
+.menu-bar {
+  width: 20px;
+  height: 3px;
+  background-color: #333;
+  margin: 4px 0;
+}
+
+.menu-options {
+  display: none; /* Initially hide the menu options */
+  position: absolute;
+  /* bottom: -5px; Adjust as needed */
+  right: -60px; /* Adjust as needed */
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+  z-index: 1; /* Ensure the menu options are above other elements */
+}
+
+.menu-options.active {
+  display: block; /* Show the menu options when active */
+}
+
+.menu-options button {
+  display: block;
+  width: 100%;
+  padding: 8px 0;
+  margin-bottom: 5px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.menu-options button:hover {
+  background-color: #f2f2f2;
+}
+
+.heart-icon {
+  position: absolute;
+  bottom: 5px; /* Adjust as needed */
+  left: 5px; /* Adjust as needed */
+  cursor: pointer;
+}

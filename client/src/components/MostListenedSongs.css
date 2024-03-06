@@ -1,0 +1,42 @@
+/* MostListenedSongs.css */
+
+.most-listened-container {
+  background-color: #f0f0f0; /* Example background color */
+  width: 300px; /* Adjust width as needed */
+  padding: 10px;
+  position: absolute;
+  top: 200px; /* Adjust to align with the header */
+  right: 0;
+}
+
+.most-listened-list {
+  list-style-type: none;
+  list-style: none;
+  padding: 0;
+}
+
+.most-listened-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.most-listened-item:hover {
+  background-color: rgba(16, 15, 15, 0.778);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.song-details {
+  flex-grow: 1;
+}
+
+.song-title {
+  margin: 0;
+}
+
+.song-artist {
+  margin: 5px 0;
+  color: #666;
+}

@@ -1,0 +1,32 @@
+body {
+  background-image: url("./assets/cover.webp");
+  background-size: 100%;
+  background-repeat: repeat-y;
+}
+
+/* App.css */
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main-container {
+  display: flex;
+  flex: 1;
+}
+
+.controls-container {
+  width: 20%; /* Adjust as needed */
+}
+
+.list-container {
+  flex: 1;
+  overflow-y: auto; /* Add scrollbar if needed */
+}
+
+.most-listened-container {
+  width: 20%; /* Adjust as needed */
+  margin-top: 190px;
+}

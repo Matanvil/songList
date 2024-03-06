@@ -1,0 +1,19 @@
+.app-container {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.content {
+  padding: 20px;
+}
+
+.song-list-title {
+  color: #ffffff;
+  text-align: center;
+}
+
+.song-list {
+  list-style: none;
+  padding: 0;
+}
